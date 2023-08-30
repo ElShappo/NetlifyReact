@@ -8,12 +8,12 @@ function App() {
     console.log('useEffect firing');
     console.log(result);
   }
-  useEffect(() => {
-    netlifyTest();
-  }, [])
+  // useEffect(() => {
+  //   netlifyTest();
+  // }, [])
   return (
     <div className="App">
-      <button onClick={netlifyTest}></button>
+      <button onClick={netlifyTest}>Another way to trigger netlify functions</button>
     </div>
   );
 }
