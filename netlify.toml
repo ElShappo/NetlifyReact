@@ -1,4 +1,5 @@
 [build]
     command = "npm run build"
+    targetProp = "3005"
     functions = "netlify/functions"
     publish = "public"
